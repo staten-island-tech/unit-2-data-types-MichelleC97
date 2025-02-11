@@ -1,4 +1,10 @@
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+x = "test"
+print(f"hello {x}")
+
+temp = 78
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
