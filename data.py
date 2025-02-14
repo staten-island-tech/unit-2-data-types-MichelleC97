@@ -1,5 +1,5 @@
-number = input("Is it even?")
-if number == "even":
+number = ("even")
+if number == "% by 2":
     print('even')
-elif number == "odd":
+elif number == "% by 1":
     print('odd')
