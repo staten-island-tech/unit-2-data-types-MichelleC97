@@ -1,5 +1,4 @@
-def if_even():  
-    input(number even or odd):
+def if_even(number):  
     if number %2 == 0:
         print('even')
     elif number:
