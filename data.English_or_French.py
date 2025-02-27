@@ -23,11 +23,11 @@ def input(English):
                 for text in range(S=T):
                     print(French)
  """
-
+""" 
 S = 0
 T = 0
 
-sentence  = input("the cat is sitting.")
+sentence  = input("the cats sits on the stairs.")
 
 for i in sentence:
     if i == " ":
@@ -40,4 +40,23 @@ if T > S:
 elif S > T:
     print("French")
 elif S == T:    
-    print("French")
+    print("French") """
+
+
+
+some_text = "The quick brown fox jumped over the lazy dog"
+more_text = ["T","h","e"]
+def lang(text):
+    french = 0
+    english = 0
+    for letter in text:
+        if letter == "s" or letter == "S":
+            french = french +1
+        # elif letter in ["t","T"]:
+        elif letter.lower() == "t":
+            english = english +1
+        if french>= english:
+            print("French")
+        else:
+            print("English")
+lang(some_text)
