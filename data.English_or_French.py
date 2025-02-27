@@ -27,7 +27,7 @@ def input(English):
 S = 0
 T = 0
 
-sentence  = input()
+sentence  = input("the cat is sitting.")
 
 for i in sentence:
     if i == " ":
@@ -35,7 +35,7 @@ for i in sentence:
     if i == ".":
         T += 1
 
-if S < T:
+if T > S:
     print("English")
 elif S > T:
     print("French")
