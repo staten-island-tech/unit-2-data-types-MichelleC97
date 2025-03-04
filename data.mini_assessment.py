@@ -22,9 +22,10 @@
 
 while True:
     withdraw = input("How much withdraw")
-    if withdraw < 500:
-        balance = 500 - withdraw
-    if withdraw > 500:
+    if int(withdraw) < 500:
+        balance = 500 - int(withdraw)
+        print("withdraw completed")
+    if int(withdraw) > 500:
         print("Insufficient funds")
     else:
         break
